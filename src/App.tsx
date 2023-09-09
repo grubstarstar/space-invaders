@@ -12,7 +12,8 @@ function App() {
     v: new Vector(0, 0),
   });
 
-  const [m, setM] = useState(1);
+  // const [m, setM] = useState(1);
+  const m = 1;
 
   const [currentKey, setCurrentKey] = useState<Keys>();
   const [angle, setAngle] = useState<number>(180);
