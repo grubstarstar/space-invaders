@@ -7,6 +7,7 @@ const style: Record<"row" | "grid", React.CSSProperties> = {
     alignItems: "center",
     justifyContent: "center",
     padding: 0,
+    WebkitUserSelect: "none",
   },
   grid: {
     display: "flex",
@@ -14,6 +15,7 @@ const style: Record<"row" | "grid", React.CSSProperties> = {
     alignItems: "center",
     justifyContent: "center",
     // height: "3rem",
+    WebkitUserSelect: "none",
     // width: "3rem",
   },
 };
@@ -98,6 +100,7 @@ const Key = ({
         lineHeight: "4rem",
         alignSelf: "center",
         userSelect: "none",
+        WebkitUserSelect: "none",
       }}
       onPointerDown={onPointerDown}
       onPointerUp={onPointerUp}

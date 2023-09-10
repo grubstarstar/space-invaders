@@ -113,7 +113,12 @@ function App() {
         </div>
       </div>
       <div
-        style={{ position: "absolute", bottom: 0, left: "calc(50% - 6rem)" }}
+        style={{
+          position: "absolute",
+          bottom: 0,
+          left: "calc(50% - 6rem)",
+          WebkitUserSelect: "none",
+        }}
       >
         <KeyBoard setCurrentKey={setCurrentKey} />
       </div>
