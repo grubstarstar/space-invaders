@@ -82,10 +82,11 @@ function App() {
       /> */}
       <div
         style={{
-          backgroundColor: "red",
+          // backgroundColor: "red",
           position: "relative",
-          height: "100%",
-          width: "100%",
+          height: "100svh",
+          width: "100svw",
+          // border: "solid 2px blue",
         }}
       >
         <div
