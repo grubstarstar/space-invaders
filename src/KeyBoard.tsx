@@ -97,6 +97,7 @@ const Key = ({
         fontSize: "4rem",
         lineHeight: "4rem",
         alignSelf: "center",
+        userSelect: "none",
       }}
       onPointerDown={onPointerDown}
       onPointerUp={onPointerUp}
