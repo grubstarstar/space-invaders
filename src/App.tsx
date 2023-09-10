@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 import { calculateNextFrameOffset } from "./physics";
 import { Vector } from "./physics/vector";
-import { KeyBoard } from "./KeyBoard";
+import { KeyBoard, Keys } from "./KeyBoard";
 
 function App() {
   const [particleState, setParticleState] = useState({
@@ -114,7 +114,7 @@ function App() {
       <div
         style={{ position: "absolute", bottom: 0, left: "calc(50% - 6rem)" }}
       >
-        <KeyBoard setCurrentKey={setCurrentKey} currentKey={currentKey} />
+        <KeyBoard setCurrentKey={setCurrentKey} />
       </div>
     </>
   );

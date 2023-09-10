@@ -19,10 +19,8 @@ const style: Record<"row" | "grid", React.CSSProperties> = {
 };
 
 export const KeyBoard = ({
-  currentKey,
   setCurrentKey,
 }: {
-  currentKey: Keys;
   setCurrentKey: React.Dispatch<React.SetStateAction<Keys | undefined>>;
 }) => {
   return (
